@@ -1,0 +1,33 @@
+<!-- @dsCard height=288 -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;700&display=swap">
+<style>
+  html,body{margin:0}
+  body{background:var(--surface);width:960px;height:288px;position:relative;overflow:hidden}
+  svg{position:absolute;left:0;top:0;width:960px;height:288px}
+  .a{fill:var(--forest)}
+  [data-theme="dark"] .a{fill:var(--sand)}
+  .b{fill:var(--ember)}
+  .c{fill:var(--stone)}
+  .d{fill:var(--gold)}
+  .r{rx:var(--radius-card);ry:var(--radius-card)}
+  .cut{fill:none;stroke:var(--surface);stroke-width:6}
+  .txt{position:absolute;left:48px;bottom:40px;width:440px}
+  .name{font:400 72px/.95 var(--font-display);letter-spacing:-.5px;color:var(--text-heading);margin:0}
+  .tag{margin:14px 0 0;font:400 14px/1.3 var(--font-sans);color:var(--text-body)}
+</style>
+<svg viewBox="0 0 960 288" aria-hidden="true">
+  <!--
+  Blocks: forest (sand in dark) 156x216, ember 144x252, stone 144x144, gold 144x96; sides are multiples of space-12.
+  Arrangement: staggered stack right of x=480 — forest bleeds off the top, ember off the bottom, stone off top-right, gold below it.
+  Pattern: literal motif (terrain strata from the mark) -> three concentric half-circles cut in the ground colour, radii 24/48/72 from the base of the ember block, like contour lines.
+  Steps and radii: space-12 multiples, radius-card (14px) on every block; arcs 6px stroke in surface.
+  -->
+  <rect class="a r" x="504" y="-12" width="156" height="216"/>
+  <rect class="b r" x="672" y="48" width="144" height="252"/>
+  <rect class="c r" x="828" y="-12" width="144" height="144"/>
+  <rect class="d r" x="828" y="156" width="144" height="96"/>
+  <path class="cut" d="M720 300A24 24 0 0 1 768 300"/>
+  <path class="cut" d="M696 300A48 48 0 0 1 792 300"/>
+  <path class="cut" d="M672 300A72 72 0 0 1 816 300"/>
+</svg>
+<div class="txt"><h1 class="name">Wanderland</h1><p class="tag">Labs · Weekends · Expeditions</p></div>

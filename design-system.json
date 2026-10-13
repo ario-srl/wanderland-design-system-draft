@@ -1,0 +1,157 @@
+{
+  "v": 3,
+  "assetGroups": {
+    "Favicon": {
+      "files": {
+        "favicon-16.png": {
+          "blob": "62c476bc45f1c87183c72538766b62de",
+          "name": "favicon-16.png",
+          "size": 6422,
+          "type": "image/png"
+        },
+        "favicon-180.png": {
+          "blob": "51a7fc0601e091d1a70833e84e1a49c9",
+          "name": "favicon-180.png",
+          "size": 16640,
+          "type": "image/png"
+        },
+        "favicon-192.png": {
+          "blob": "82ac6a9a86b4a53f04636287fe795600",
+          "name": "favicon-192.png",
+          "size": 17424,
+          "type": "image/png"
+        },
+        "favicon-32.png": {
+          "blob": "28d615ecd937aa51405f1dace8fc256f",
+          "name": "favicon-32.png",
+          "size": 7273,
+          "type": "image/png"
+        },
+        "favicon-48.png": {
+          "blob": "a2cfed2c8d1529250084c056ee5b37b3",
+          "name": "favicon-48.png",
+          "size": 8146,
+          "type": "image/png"
+        },
+        "favicon-512.png": {
+          "blob": "26fc1de13a5de53750e7bebe8c151720",
+          "name": "favicon-512.png",
+          "size": 43014,
+          "type": "image/png"
+        },
+        "favicon-64.png": {
+          "blob": "29a6cb44abb71c33fa3ea669e5ee73ce",
+          "name": "favicon-64.png",
+          "size": 9145,
+          "type": "image/png"
+        }
+      },
+      "name": "Favicon",
+      "order": [
+        "favicon-512.png",
+        "favicon-192.png",
+        "favicon-180.png",
+        "favicon-64.png",
+        "favicon-48.png",
+        "favicon-32.png",
+        "favicon-16.png"
+      ],
+      "tile": "s"
+    },
+    "Logos": {
+      "files": {
+        "wanderland-mark-color-1280.png": {
+          "blob": "327c3bf494eeb043cdc990a48aa48783",
+          "name": "wanderland-mark-color-1280.png",
+          "size": 31235,
+          "type": "image/png"
+        },
+        "wanderland-mark-color-512.png": {
+          "blob": "563120007b2e3c1258db7a0e7de31bc0",
+          "name": "wanderland-mark-color-512.png",
+          "size": 36383,
+          "type": "image/png"
+        },
+        "wanderland-mark-color-trim.png": {
+          "blob": "a11b540ddc3734227082940e2f3b7aa8",
+          "name": "wanderland-mark-color-trim.png",
+          "size": 23591,
+          "type": "image/png"
+        },
+        "wanderland-mark-sand-1280.png": {
+          "blob": "a5652945446a1933e9ef373c5a04ea14",
+          "name": "wanderland-mark-sand-1280.png",
+          "size": 30614,
+          "type": "image/png"
+        },
+        "wanderland-mark-sand-512.png": {
+          "blob": "c85eb046d9cbcae0468e8a840a0752a7",
+          "name": "wanderland-mark-sand-512.png",
+          "size": 38899,
+          "type": "image/png"
+        },
+        "wanderland-mark-sand-trim.png": {
+          "blob": "f67ab5aeaabe29183fe9fb1f8bdaf7c4",
+          "name": "wanderland-mark-sand-trim.png",
+          "size": 23038,
+          "type": "image/png"
+        },
+        "wanderland-mark-white-1280.png": {
+          "blob": "b586437e4ae99d3551151393183f8340",
+          "name": "wanderland-mark-white-1280.png",
+          "size": 30134,
+          "type": "image/png"
+        },
+        "wanderland-mark-white-512.png": {
+          "blob": "378d5df8eb2d904a94e0107203e1cce4",
+          "name": "wanderland-mark-white-512.png",
+          "size": 24510,
+          "type": "image/png"
+        },
+        "wanderland-mark-white-trim.png": {
+          "blob": "8d24b68acc46bb50017a6941303a79e3",
+          "name": "wanderland-mark-white-trim.png",
+          "size": 22712,
+          "type": "image/png"
+        }
+      },
+      "name": "Logos",
+      "order": [
+        "wanderland-mark-color-1280.png",
+        "wanderland-mark-color-512.png",
+        "wanderland-mark-color-trim.png",
+        "wanderland-mark-sand-1280.png",
+        "wanderland-mark-sand-512.png",
+        "wanderland-mark-sand-trim.png",
+        "wanderland-mark-white-1280.png",
+        "wanderland-mark-white-512.png",
+        "wanderland-mark-white-trim.png"
+      ],
+      "tile": "l"
+    }
+  },
+  "blobs": {},
+  "createdOnFiles": {
+    "at": "2026-10-12T21:07:14Z",
+    "v": 1
+  },
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "groups": [
+    "Logos",
+    "Favicon"
+  ],
+  "lastChange": {
+    "by": "Andrea",
+    "at": "2026-10-13T14:32:00Z",
+    "via": "Claude (Cowork)",
+    "note": "Eyebrow sopra i titoli sempre in maiuscolo (stile eyebrow)"
+  },
+  "layout": "files",
+  "libraries": [],
+  "namespace": "Wanderland",
+  "sections": {},
+  "title": "Wanderland"
+}

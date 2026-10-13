@@ -1,0 +1,21 @@
+<!-- @dsCard group="Titoli" height=210 subtitle="Parola evidenziata nell'H1" -->
+<style>
+  html,body{margin:0}
+  body{background:var(--surface)}
+  .stage{min-height:100vh;box-sizing:border-box;background:var(--surface);padding:40px 32px;overflow:visible}
+  h1.h1{margin:0;color:var(--text-heading);font-weight:400}
+  h1 em{overflow:visible}
+  .gw{
+    color:var(--gold-glow);
+    background-image:linear-gradient(110deg,var(--gold-glow) 0%,var(--gold-light) 18%,var(--gold-deep) 38%,var(--sage) 58%,var(--gold-glow) 78%,var(--gold-light) 100%);
+    background-size:240% 240%;background-position:0% 50%;
+    -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+    animation:float 5.2s ease-in-out infinite;
+    display:inline-block;padding-right:.16em;margin-right:-.16em;padding-left:.05em;margin-left:-.05em;line-height:1.12;
+  }
+  @keyframes float{0%{background-position:0% 50%}35%{background-position:55% 45%}70%{background-position:100% 55%}100%{background-position:0% 50%}}
+  @media (prefers-reduced-motion:reduce){.gw{animation:none;background-position:35% 50%}}
+</style>
+<div class="stage" data-theme="dark">
+  <h1 class="h1">Viaggiamo <em><span class="gw">Insieme</span></em></h1>
+</div>
